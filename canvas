@@ -1,0 +1,38 @@
+import Tkinter
+import tkMessageBox
+
+# creates basic window 
+topx = Tkinter.Tk()
+
+def helloCallBack():
+	tkMessageBox.showinfo( "Hello Python", "Hello World")
+
+B = Tkinter.Button(topx, text ="Hello", command = helloCallBack)
+
+B.pack()
+
+	# add widget code here
+
+
+
+# create basic window
+# top = Tkinter.Tk()
+
+# add canvas 
+# C = Tkinter.Canvas(top, bg="blue", height=250, width=300)
+
+# add co'ordnates varaible 
+# coord = 10, 50, 240, 210
+
+# create arc 
+# arc = C.create_arc(coord, start=0, extent=150, fill="red")
+
+# pack arc widget into canvas
+# C.pack()
+
+# run main loop display widget
+
+# top.mainloop()
+topx.mainloop()
+
+
